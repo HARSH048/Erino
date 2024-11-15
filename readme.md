@@ -60,7 +60,17 @@ The **Contact Management** feature centralizes contact information, providing a 
 ### Steps to Set Up the Backend
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/contact-management.git
+   git clone https://github.com/HARSH048/Erino.git
+
+2. **add env file in root**
+    PORT = PRT
+    DB_HOST=DB_HOST
+    DB_PORT=DB_PORT
+    DB_USER=postgres
+    DB_PASS=DB_PASS
+    DB_NAME=DB_NAME
+
+    add db configuration in env
 
    npm install
    npm run dev (setup db and start the project)
